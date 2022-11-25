@@ -7,7 +7,7 @@
 
 ### Why TTF?
 - To be able to keep the style, [AVHershey-OTF](https://github.com/scruss/AVHershey-OTF/tree/master/otf) profiles a OTF "projection" of the original Hershey fonts.
-- Here, for personal use, I ddded italic styles and a few missing fonts (ui2299 for example) then created TTF files.
+- Here, for personal use, based on [AVHershey-OTF](https://github.com/scruss/AVHershey-OTF/tree/master/otf), I ddded italic styles and a few missing fonts (ui2299 for example) then created TTF files.
 - I will try to update the fonts by adding more missing characters.
 
 
