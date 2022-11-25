@@ -1,4 +1,4 @@
-# Hershey-font-TTF
+# Hershey font TTF files
 
 - The fonts are created based on https://github.com/scruss/AVHershey-OTF/tree/master/otf
 - Added italic styles and a few missing fonts (ui2299 for example)
