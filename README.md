@@ -35,3 +35,6 @@
   - Medium Italic,
   - Heavy,
   - Heavy Italic.
+
+ ### Example:
+ ![image](./example/ComplexLightItalic.png) 
