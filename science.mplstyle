@@ -1,3 +1,5 @@
+# Adapted from "SciencePlots" Using the Hershey fonts to create IDL-style plots
+
 # Matplotlib style for scientific plotting
 # This is the base style for "SciencePlots"
 # see: https://github.com/garrettj403/SciencePlots
