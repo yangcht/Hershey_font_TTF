@@ -1,0 +1,81 @@
+# Matplotlib style for scientific plotting
+# This is the base style for "SciencePlots"
+# see: https://github.com/garrettj403/SciencePlots
+
+# Set color cycle: from https://www.vis4.net/palettes
+axes.prop_cycle : cycler('color', ['00195e', '4da9ba', '65ffaa', 'fba329', 'd84a11', '8e0000'])
+
+# Set default figure size
+figure.figsize : 10.0, 7.0
+
+
+# Set x axis
+xtick.direction : in
+xtick.major.size : 6.0
+xtick.major.width : 1.5
+xtick.major.pad : 5
+xtick.minor.size : 4
+xtick.minor.width : 1.0
+xtick.minor.visible : True
+xtick.top : True
+
+
+# Set y axis
+ytick.direction : in
+ytick.major.size : 6.0
+ytick.major.width : 1.5
+ytick.major.pad : 5
+ytick.minor.size : 4
+ytick.minor.width : 1.0
+ytick.minor.visible : True
+ytick.right : True
+
+# Set line widths
+axes.linewidth : 2.0
+grid.linewidth : 2.0
+lines.linewidth : 2.5
+
+# Remove legend frame
+legend.frameon : False
+
+# Always save as 'tight'
+savefig.bbox : tight
+savefig.pad_inches : 0.05
+
+
+#axes.labelweight  : normal
+axes.labelsize: 24
+
+# Use serif fonts
+font.serif: AVHershey Complex 
+font.sans-serif: AVHershey Duplex 
+font.monospace: AVHershey Complex 
+font.family: serif
+text.usetex: False
+
+#text.usetex : true
+#font.family : AVHershey Complex 
+
+font.weight: 500
+font.size: 20
+
+mathtext.fontset : custom
+mathtext.default: it
+
+mathtext.rm : AVHershey Complex:medium
+mathtext.it : AVHershey Complex:medium:italic
+mathtext.bf : AVHershey Complex:heavy
+mathtext.sf : AVHershey Duplex:medium
+mathtext.tt:  AVHershey Complex:light
+
+mathtext.fallback : None
+
+axes.formatter.use_mathtext: True
+
+ps.fonttype: 42
+pdf.fonttype: 42
+
+#text.dvipnghack : True
+
+# Use LaTeX for math formatting
+# text.latex.preamble : \AtBeginDocument{\catcode`\&=12\catcode`\#=12} 
